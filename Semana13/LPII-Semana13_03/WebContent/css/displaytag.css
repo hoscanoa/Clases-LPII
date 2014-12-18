@@ -1,0 +1,245 @@
+table {
+	border: 0px solid #666;
+	width: 100%;
+	margin: 20px 0 20px 0;
+}
+
+th, td {
+	padding: 2px 4px 2px 4px;
+	text-align: left;
+	vertical-align: top;
+}
+
+thead tr {
+   PADDING-LEFT: 5px; 
+   FONT-WEIGHT: bold; 
+   FONT-SIZE: 11px; 
+   BORDER-LEFT: dimgray 1px solid; 
+   COLOR: black; LINE-HEIGHT: 10pt; 
+   BORDER-BOTTOM: dimgray; 
+   FONT-FAMILY: Verdana, Arial; 
+   BACKGROUND-COLOR: #dddca3;
+}
+
+th.sorted {
+   PADDING-LEFT: 5px; 
+   FONT-WEIGHT: bold; 
+   FONT-SIZE: 11px; 
+   BORDER-LEFT: dimgray 1px solid; 
+   COLOR: black; LINE-HEIGHT: 12pt; 
+   BORDER-BOTTOM: dimgray; 
+   FONT-FAMILY: Verdana, Arial; 
+   BACKGROUND-COLOR: #dddca3;
+
+}
+
+th a, th a:visited {
+  color: black;
+}
+
+th a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+th.sorted a, th.sortable a {
+   PADDING-LEFT: 5px; 
+   FONT-WEIGHT: bold; 
+   FONT-SIZE: 11px; 
+   COLOR: black; LINE-HEIGHT: 12pt; 
+   TEXT-DECORATION: none;
+   BORDER-BOTTOM: dimgray; 
+   FONT-FAMILY: Verdana, Arial; 
+   BACKGROUND-COLOR: #dddca3;
+	
+}
+
+th.sortable a {
+	background-image: url(../img/arrow_off.png);
+}
+
+th.order1 a {
+	background-image: url(../img/arrow_down.png);
+}
+
+th.order2 a {
+	background-image: url(../img/arrow_up.png);
+}
+
+tr.odd {
+   PADDING-LEFT: 5px; 
+   FONT-SIZE: 11px; 
+   BORDER-LEFT: dimgray 1px solid; 
+   COLOR: black; LINE-HEIGHT: 12pt; 
+   BORDER-BOTTOM: dimgray; 
+   FONT-FAMILY: Verdana, Arial; 
+   BACKGROUND-COLOR: #ffffff
+  
+}
+
+tr.tableRowEven, tr.even {
+   PADDING-LEFT: 5px; 
+   FONT-SIZE: 11px; 
+   BORDER-LEFT: dimgray 1px solid; 
+   COLOR: black; LINE-HEIGHT: 12pt; 
+   BORDER-BOTTOM: dimgray; 
+   FONT-FAMILY: Verdana, Arial; 
+   BACKGROUND-COLOR: #f2f2f2
+  
+}
+
+ul#showsource {
+	float: right;
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: 5px;
+	width:100px;
+	list-style-type: none;
+}
+
+/* test styles */
+table.its thead tr {
+  background-color: #FFF000;
+}
+
+table.its tr.even {
+  background-color: #FFF;
+}
+
+table.mars thead tr {
+  background-color: #ccc;
+}
+
+table.mars tr.even {
+  background-color: #eef;
+}
+
+table.mars tr.odd {
+   PADDING-LEFT: 5px; 
+   FONT-SIZE: 11px; 
+   BORDER-LEFT: dimgray 1px solid; 
+   COLOR: blue; LINE-HEIGHT: 12pt; 
+   BORDER-BOTTOM: dimgray; 
+   FONT-FAMILY: Verdana, Arial;
+   BACKGROUND-COLOR: #f2f2f2
+  
+}
+
+table.simple thead tr {
+  background-color: #eee;
+}
+
+table.simple tr.even {
+  background-color: #fff;
+}
+
+table.simple {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+table.simple td,table.simple th{
+	border: 1px solid #ccc;
+}
+
+table.nocol tbody td,table.nocol tbody th{
+	border-left: none;
+	border-right: none;
+}
+
+table.report td, table.report th{
+	font:         menu;
+}
+
+table.report th{
+	background:   buttonface;
+	border-width: 1px;
+	border-style: solid;
+	border-color: threedhighlight threedshadow threedshadow threedhighlight;
+	cursor:       hand;
+}
+
+table.report idcol {
+	background: buttonface;
+}
+
+table.report tr.even{
+	background-color: #399;
+}
+
+table.report tbody {
+	height: 100px;
+	overflow: auto;
+}
+
+table.report {
+	height: 120px;
+	overflow: auto;
+}
+
+table.report tbody tr{
+	height: 10px;
+}
+
+table.mark td.tableCellError {
+	background-color: #d00;
+	color: #fff;
+}
+
+table.sublist {
+	margin: 0 0 0 0;
+	width: 100%;
+}
+table.sublist td, table.sublist th {
+	width: 50%;
+}
+
+div.exportlinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	margin: -10px 0 10px 0;
+	width: 79%;
+}
+
+span.export {
+	padding: 0 4px 1px 20px;
+	display:inline; display:inline-block;
+	cursor: pointer;
+}
+
+span.excel {
+	background-image: url(../images/ico_file_excel.png);
+}
+span.csv {
+	background-image: url(../images/ico_file_csv.png);
+}
+span.xml {
+	background-image: url(../images/ico_file_xml.png);
+}
+span.pdf {
+	background-image: url(../images/ico_file_pdf.png);
+}
+
+span.pagebanner {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 79%;
+	margin-top: 10px;
+	display:block;
+	border-bottom: none;
+}
+
+span.pagelinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 79%;
+	display:block;
+	border-top: none;
+	margin-bottom: -5px;
+}
+
+table.simple td.textRed {color: #b11;}

@@ -1,0 +1,45 @@
+package demo.listeners;
+
+import javax.servlet.annotation.WebListener;
+import javax.servlet.http.HttpSessionAttributeListener;
+import javax.servlet.http.HttpSessionBindingEvent;
+
+/**
+ * Application Lifecycle Listener implementation class ListenerSessionAttribute
+ *
+ */
+@WebListener
+public class ListenerSessionAttribute implements HttpSessionAttributeListener {
+
+    /**
+     * Default constructor. 
+     */
+    public ListenerSessionAttribute() {
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+     * @see HttpSessionAttributeListener#attributeAdded(HttpSessionBindingEvent)
+     */
+    public void attributeAdded(HttpSessionBindingEvent arg0) {
+        System.out.println("Listener -Session - Attribute : Creado "
+        		+arg0.getName());
+    }
+
+	/**
+     * @see HttpSessionAttributeListener#attributeRemoved(HttpSessionBindingEvent)
+     */
+    public void attributeRemoved(HttpSessionBindingEvent arg0) {
+    	System.out.println("Listener -Session - Attribute : Eliminado "
+        		+arg0.getName());
+    }
+
+	/**
+     * @see HttpSessionAttributeListener#attributeReplaced(HttpSessionBindingEvent)
+     */
+    public void attributeReplaced(HttpSessionBindingEvent arg0) {
+    	System.out.println("Listener -Session - Attribute : Reemplazado "
+        		+arg0.getName());
+    }
+	
+}
