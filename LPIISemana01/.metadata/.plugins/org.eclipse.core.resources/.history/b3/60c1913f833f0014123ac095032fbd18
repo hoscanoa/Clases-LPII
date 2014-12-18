@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	color: #666;
+	font-family: Arial, Verdana, Helvetica;
+}
+
+h1 {
+	color: #55555;
+}
+
+.etiqueta {
+	color: blue;
+}
