@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Index</title>
+</head>
+<body>
+	<h1>Mi primera pàgina en HTML</h1>
+
+	<table>
+		<tr>
+			<td colspan="2">Registro de Alumno</td>
+		</tr>
+		<tr>
+			<td>DNI</td>
+			<td><input type="text" name="dni">
+			</td>
+		</tr>
+		<tr>
+			<td>Sexo</td>
+			<td>M<input type="radio" name="sexo"> </br> F<input
+				type="radio" name="sexo">
+			</td>
+		</tr>
+		<tr>
+			<td><input type="reset" name="Limpiar"> </br> <input
+				type="submit" name="Enviar">
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+Listar proyectos por prioridad
+Eliminar proyecto..
+Usar:	DAO	Factory		CustomTag
+	Servlet		Jsp	DisplayTag
+
+1. Se creara un control HTML <select> y <option> para cargar las prioridades. Se usara CustomTag, DAO y Factory...
+  a. Crear un bean con clave y valor *
+  b. Crear Factory *
+  c. Crear ComboDAO *
+  d. Crear MySqlFactory *
+  e. Crear MySqlComboDAO *
+  f. Crear ComboTag *
+  g. Configurar (crear) el archivo .tld *
+  h. Crear el JSP y mostrar el ComboTag *
+
+2. Listar los proyectos segun la prioridad seleccionada. Se usara DAO, Factory, Servlet, DisplayTag, JSP.
+  a. Crear un bean de Proyecto * 
+  b. Crear ProyectoDAO *
+  c. Modificar MySqlFactory * 
+  d. Crear MySqlProyectoDAO *
+  e. Crear Servlet *
+  f. Referenciar librerias de DisplayTag *
+  g. Modificar el JSP para consultar *
+  h. Agregar tabla DisplayTag
+
+3. Eliminar un proyecto de la lista
+  a. Agregar una columna en el displaytag con vinculo a un servlet *
+  b. agregar el metodo eliminar en ProyectoDAO *
+  c. implementar eliminar en MySqlProyectoDAO *
+  d. agregar el servlet eliminar
+
+
+
+Bonus:
+-- Listar por nombre (coincidencia LIKE) *
+-- Usando Request en DisplayTag (no session) *
+-- Refrescar grilla al eliminar. *
+   - Lo veremos en otro servlet eliminar donde se redireccione al Servlet ConsultaPorNombre
+- Como no tenemos el filtro del txt al hacer clic en el eliminar, modificaremos el Servlet ConsultaPorNombre para guardar el filtro en la session, y obtenerlo si es necesario
+
+
+
+
+
+
+

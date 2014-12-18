@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jspversion>2.0</jspversion>
+	<shortname>misTags</shortname>
+	<!-- uri: Alias de nuestra LIBRERIA (contenedor) de tags -->
+	<uri>misTags</uri>
+
+	<!-- bodycontent: JSP: Si permite contendio interno empty: No permite contendio 
+		interno -->
+
+	<!-- Registro de primer control personalizado (Tag) -->
+	<tag>
+		<name>ciclo</name>
+		<tag-class>tags.TagCicloDeVida</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	<tag>
+		<name>mensaje</name>
+		<tag-class>tags.TagMensajeConAtributos</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>texto</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>color</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+
+	<tag>
+		<name>miTR</name>
+		<tag-class>tags.TagFila</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>etiqueta</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>nombre</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>tipo</name>
+			<required>true</required>
+		</attribute>
+	</tag>
+</taglib>
